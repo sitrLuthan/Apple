@@ -1,0 +1,14 @@
+*{
+   font-family: sans-serif;
+   
+}
+body {
+    padding-top: 70px;
+}
+.section{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
