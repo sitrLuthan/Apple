@@ -31,9 +31,10 @@
     align-items: flex-start;
     max-width: 100%;
     min-height: 520px;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
   
 }
 .hero .titlewrapper_fathersday{
@@ -54,12 +55,12 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    margin-top: 18px;
+    margin-top: 25px;
 }
 
 .hero .titlecontenttypography h1{
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 550;
     text-align: center;
     flex-wrap: wrap;
     color: #c7ced2 ;
@@ -93,7 +94,7 @@
     transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 .titlebuttons button:hover{
-   background-color: #0066CC;
+   background-color: #1571cd;
    color: white;
 }
 .titlebuttons a{
@@ -103,7 +104,8 @@
 }
 .titlebuttons button:hover .heroshopiphone,
 .titlebuttons button:hover .herolearmore{
-    opacity: 0.9;
+    opacity: 0.8;
+
 }
 .herolearnmore{
     background: #0066CC;
@@ -112,5 +114,9 @@
 .heroshopiphone{
     background: transparent;
     color: #0066CC;
-    border: 1px;
+    border: 0.7px solid #0066CC !important;
+}
+.heroshopbutton{
+    background: #0066CC;
+    color: #fff;
 }

@@ -1,28 +1,12 @@
 
 footer{
+    
     margin-top: 40px;
     color: #b6b5ba;
 }
-.footernav{
-    display: flex;
+/* footer content */
 
-    width: 100%;
-}
-.footercolumn{
-    position: relative;
-    padding: 6px;
-    width: 100%;
-}
-.footercolumn_section_items li{
-    list-style: none;
-    font-size: 12px;
-    padding: 5px;
-}
 
-.footercolumn_section_items li a {
-    text-decoration: none;
-    color: inherit;
-}
 #footer_list_li1{
     
     font-size: 12px;
@@ -43,13 +27,50 @@ footer{
     word-spacing: 2px;
     font-weight: 20;
 }
+
+.footer_list{
+    margin: 12px 220px
+}
+
+/* footernav */
+
+.footernav{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    border-top: 0.6px solid rgba(255, 255, 255, 0.203);
+    width: 70%;
+}
+
+.footercolumn{
+    position: relative;
+    padding: 6px;
+    width: 100%;
+}
+.footercolumn_section_items li{
+    list-style: none;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.footercolumn_section_items li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* end footer */
+.endfooter_shop{
+    margin-left: 220px;
+    margin-right: 220px;
+}
 .endfooter_legal{
     display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    border-top: 0.6px solid rgba(255, 255, 255, 0.203);
+    width: 70%;
 }
 .endfooter_legallinks_items a{
     text-decoration: none;
     list-style: none;
-}
-.footer_list{
-    margin: 12px 220px
 }
