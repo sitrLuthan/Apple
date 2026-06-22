@@ -1,4 +1,8 @@
 
+footer{
+    margin-top: 40px;
+    color: #b6b5ba;
+}
 .footernav{
     display: flex;
 
@@ -18,4 +22,34 @@
 .footercolumn_section_items li a {
     text-decoration: none;
     color: inherit;
+}
+#footer_list_li1{
+    
+    font-size: 12px;
+    padding: 5px;
+    color: #8c8b8e;
+    text-align: left;
+    margin: 12px 50px;
+    font-weight: 20;
+    word-spacing: 2px;
+}
+#footer_list_li2{
+    list-style: none;
+    font-size: 12px;
+    padding: 5px;
+    color: #8c8b8e;
+    text-align: left;
+    margin: 12px 50px;
+    word-spacing: 2px;
+    font-weight: 20;
+}
+.endfooter_legal{
+    display: flex;
+}
+.endfooter_legallinks_items a{
+    text-decoration: none;
+    list-style: none;
+}
+.footer_list{
+    margin: 12px 220px
 }

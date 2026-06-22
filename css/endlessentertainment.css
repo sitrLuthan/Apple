@@ -1,0 +1,64 @@
+.endless-entertainment-heading{
+   
+    text-align: center;
+}
+.endless-entertainment-heading h1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.moviecards_carousel{
+    display: flex;
+    overflow: auto;
+    gap: 6px;
+    scrollbar-width: none;
+    /* on container */
+    scroll-snap-type: x mandatory;
+ 
+}
+.services_carousel{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+    scrollbar-width: none;
+    /* on container */
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 100px;
+    margin-top: 4px;
+
+}
+.carousel_items1{
+    height: 500px;
+    width: 1200px;
+    margin: 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* on each child */
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    transition: ease 20s;
+}
+.servicescarousel1{
+    height: 265px;
+    width: 470px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* on each child */
+    scroll-snap-align: start;
+    transition: ease-in-out 50s;
+  
+}
+/* img#movieimg...there should be no space */
+img#movieimg{ 
+    height: 500px;
+    width: 1200px;
+}
+img#servicesimg{
+    height: 265px;
+    width: 470px;
+}
+
+
+

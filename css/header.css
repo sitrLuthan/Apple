@@ -4,12 +4,14 @@ header{
     left: 0;
     width: 100%;
     z-index: 999;
-    height: 70px;
+    height: 30px;
     font-size: 13px;
+    background: transparent;
 }
+
 nav{
     display: flex;
-    background-color: #181a1b;
+    background-color: transparent;
     width: 100%;
 }
 .navbar{
@@ -20,6 +22,7 @@ nav{
     gap: 16px;
     padding: 5px 0;
     width: 100%;
+    background: transparent;
 }
 .navlinks{
     display: flex;
@@ -69,7 +72,7 @@ nav{
 }
 .storedropdown {
     display: none;
-    background-color: rgba(10, 10, 10, 0.98);
+    background-color: transparent;
     position: absolute;
     z-index: 10;
     left: 0%;

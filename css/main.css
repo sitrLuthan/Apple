@@ -3,12 +3,11 @@
    
 }
 body {
-    padding-top: 70px;
+   margin: 0;
 }
 .section{
     display: grid;
     grid-template-columns: auto;
-    gap: 10px;
     text-align: center;
     margin-bottom: 10px;
 }
