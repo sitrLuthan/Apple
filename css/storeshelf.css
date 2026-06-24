@@ -1,0 +1,30 @@
+.storeshelf{
+ margin-top: 120px;
+}
+.storeshelf1_scroller{
+    display: flex;
+    overflow: auto;
+    gap: 6px;
+    scrollbar-width: none;
+    /* on container */
+    scroll-snap-type: x mandatory;
+ 
+}
+.storeshelfitem1{
+    height: 450px;
+    width: 350px;
+    margin: 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* on each child */
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    transition: ease 20s;
+    position: relative;
+}
+img.shelf1img{
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+}

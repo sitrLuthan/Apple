@@ -1,0 +1,54 @@
+.herostore{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    width: 100%;
+}
+.herostore_typography{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.store_carousel{
+    display: flex;
+    overflow: auto;
+    gap: 15px;
+    scrollbar-width: none;
+    /* on container */
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 100px;
+    margin-top: 4px;
+
+}
+.storecarousel1{
+    text-align: center;
+}
+.storecarousel1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 12px 0;
+}
+img.storeimg{
+    height: 80px;
+    width: 140px;
+}
+.heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.heroright h2{
+    width: 70%;
+    text-align: right;
+}
+.heroright a{
+    align-self: flex-end;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.heroleft h1{
+    font-size: 90px;
+}

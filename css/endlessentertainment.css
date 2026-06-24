@@ -7,6 +7,9 @@
     margin-bottom: 20px;
     font-size: 50px;
 }
+
+
+
 .moviecards_carousel{
     display: flex;
     overflow: auto;
@@ -28,7 +31,7 @@
 
 }
 .carousel_items1{
-    height: 500px;
+    height: 600px;
     width: 1200px;
     margin: 6px;
     background-size: cover;
@@ -38,6 +41,7 @@
     scroll-snap-align: center;
     flex-shrink: 0;
     transition: ease 20s;
+    position: relative;
 }
 .servicescarousel1{
     height: 265px;
@@ -52,7 +56,7 @@
 }
 /* img#movieimg...there should be no space */
 img#movieimg{ 
-    height: 500px;
+    height: 600px;
     width: 1200px;
 }
 img#servicesimg{
@@ -60,5 +64,30 @@ img#servicesimg{
     width: 470px;
 }
 
+/* buttons */
 
+.carouselbtn_items{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    gap: 30px;
+}
+.carouselbtn{
+    z-index: 999;
+    background: #1d1c1c;
+    color: #fff;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.carouselbtn:hover{
+    background: #121212;
+}
+.carouselbtn_items p{
+}
 
